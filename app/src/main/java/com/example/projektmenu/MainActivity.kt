@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Durum Czosnkowy Potwór", Toast.LENGTH_SHORT).show()
             }
         })
-        chk.setOnCheckedChangeListener { _, isChecked ->
-            Toast.makeText(this, isChecked.toString(), Toast.LENGTH_SHORT).show()
+        chk.setOnCheckedChangeListener { _,isChecked ->
+            Toast.makeText(this,isChecked.toString(), Toast.LENGTH_SHORT).show()
         }
-        chk2.setOnCheckedChangeListener { _, isChecked ->
-            Toast.makeText(this, isChecked.toString(), Toast.LENGTH_SHORT).show()
+        chk2.setOnCheckedChangeListener { _,isChecked ->
+            Toast.makeText(this,isChecked.toString(), Toast.LENGTH_SHORT).show()
         }
 
 
